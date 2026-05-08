@@ -1,0 +1,51 @@
+.header {
+  background-color: black;
+  position: sticky;
+  z-index: 1;
+  color: #837c7c;
+  font-weight: 100;
+  box-shadow: 0 2px 10px #979696;
+  
+  height: 8vh;
+}
+.nav-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.left-wraper {
+    margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ul-wraper ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.rghit-wraper .icons-wraper ul {
+  padding-inline: 15px;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.rghit-wraper .icons-wraper ul li {
+  display: flex;
+  align-items: center;
+}
+.logo_sytle {
+  width: 100px;
+}
+.ul-wraper li {
+  cursor: pointer;
+
+  padding: 10px;
+}
+.ul-wraper li:hover {
+  color: #c7c0c0;
+}
+.icons-wraper ul li {
+  cursor: pointer;
+}
